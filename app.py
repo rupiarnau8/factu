@@ -1,5 +1,5 @@
 """
-Ortegas Auto - Gestión de Facturación por Usuarios y Clientes
+Gestión de Facturación por Usuarios y Clientes
 Stack: Streamlit, Pandas, pdfplumber, openpyxl
 """
 
@@ -15,7 +15,7 @@ from datetime import datetime
 
 # Configuración de página
 st.set_page_config(
-    page_title="Ortegas Auto - Gestión de Facturación",
+    page_title="Gestión de Facturación",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -260,7 +260,7 @@ with st.sidebar:
 
 # ============ MAIN CONTENT ============
 
-st.markdown('<p class="main-header">📊 Ortegas Auto - Gestión de Facturación</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-header">📊 Gestión de Facturación</p>', unsafe_allow_html=True)
 
 # ---------- PARTE 1: GESTIÓN DE USUARIOS Y CLIENTES ----------
 if "1️⃣" in step:
@@ -455,3 +455,4 @@ elif "3️⃣" in step:
                                         st.write(pd.DataFrame(list(sums.items()), columns=["Cliente", "Facturación"]))
                         else:
                             st.info("No se encontraron coincidencias con los clientes de los usuarios.")
+
