@@ -1,4 +1,4 @@
-# Ortegas Auto - Gestión de Facturación
+# Gestión de Facturación
 
 Aplicación Streamlit para gestionar usuarios, clientes y facturación a partir de PDF y Excel.
 
@@ -62,3 +62,4 @@ Cada hoja corresponde a un usuario. Columnas:
 |---------|-----------|-------------|
 | 2025-01 | CLIENTE A | 1500.00     |
 | 2025-01 | CLIENTE B | 800.00      |
+
